@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:weightSum="1">
+
+
+    <ImageView
+        android:id="@+id/cardImage"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        app:srcCompat="@android:drawable/star_big_off" />
+
+    <TextView
+        android:id="@+id/textViewDamage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Damage"
+        android:textColor="@color/colorWhite"/>
+
+    <TextView
+        android:id="@+id/textViewHealth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Health"
+        android:textColor="@color/colorWhite"/>
+
+    <TextView
+        android:id="@+id/textViewDefensive"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Defense"
+        android:textColor="@color/colorWhite"/>
+
+    <TextView
+        android:id="@+id/textViewDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Description"
+        android:textColor="@color/colorWhite"/>
+    <TextView
+        android:id="@+id/textViewName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:textColor="@color/colorWhite"/>
+
+
+</LinearLayout>

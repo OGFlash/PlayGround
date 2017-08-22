@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/linearLayoutContext">
+
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar" />
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/floatingActionButtonOne"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|end"
+                android:src="@drawable/ic_fire"
+                app:backgroundTint="@color/colorTeal"
+                app:elevation="10dp"
+                android:layout_margin="16dp"
+                app:fabSize="normal" />
+
+    <TextView
+        android:id="@+id/statusText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="490dp"
+        android:text="Status:"
+        android:textSize="24sp"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/buttonOn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|center_vertical|center"
+        android:layout_marginTop="150dp"
+        android:background="@color/colorDarkGrey"
+        android:text="ON"
+        android:textColor="@color/colorWhite" />
+
+    <Button
+        android:id="@+id/buttonOff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center"
+        android:layout_marginTop="150dp"
+        android:background="@color/colorDarkGrey"
+        android:text="OFF"
+        android:textColor="@color/colorWhite" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|end"
+        android:layout_marginTop="150dp"
+        android:background="@color/colorDarkGrey"
+        android:text="Mode"
+        android:textColor="@color/colorWhite" />
+
+    <ListView
+        android:id="@+id/listViewBT"
+        android:layout_width="wrap_content"
+        android:layout_height="234dp"
+        android:layout_marginTop="60dp" />
+
+    <Button
+        android:id="@+id/listButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:background="@color/colorDarkGrey"
+        android:text="LIST"
+        android:textColor="@color/colorWhite" />
+
+    <Button
+        android:id="@+id/findButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|left|center"
+        android:background="@color/colorDarkGrey"
+        android:text="FIND"
+        android:textColor="@color/colorWhite" />
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/fromCamera" />
+
+
+
+
+
+</android.support.design.widget.CoordinatorLayout>

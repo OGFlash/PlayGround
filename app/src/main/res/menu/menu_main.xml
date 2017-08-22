@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:apps="http://schemas.android.com/apk/res-auto">
+
+    <group android:checkableBehavior="none">
+    <item
+        android:id="@+id/settings_menu"
+        android:icon="@drawable/ic_menu_manage"
+        android:title="Settings"/>
+
+    <item
+        android:id="@+id/save_menu"
+        android:icon="@drawable/ic_menu_manage"
+        android:title="Save" />
+
+    <item
+        android:id="@+id/camera_menu"
+        android:icon="@drawable/ic_menu_camera"
+        android:title="Camera" />
+
+    <item
+        android:id="@+id/message_menu"
+        android:icon="@drawable/ic_menu_send"
+        android:title="Send" />
+
+    <item
+        android:id="@+id/share_menu"
+        android:icon="@drawable/ic_menu_share"
+        android:title="Share"
+        apps:showAsAction="never" />
+    </group>
+
+    <item
+        android:id="@+id/communication_menu"
+        android:orderInCategory="100"
+        android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:orderInCategory="100"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:orderInCategory="100"
+                android:title="Send" />
+        </menu>
+    </item>
+
+
+</menu>

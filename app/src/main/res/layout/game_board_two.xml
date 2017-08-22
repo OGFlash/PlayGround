@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:apps="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:custom="http://schemas.android.com/res/com.example.owner.testtwo.GameCard"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorDarkGrey"
+    android:id="@+id/card_container">
+
+    <com.example.owner.testtwo.GameCard
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        custom:damageLabel="What's UP!">
+    </com.example.owner.testtwo.GameCard>
+
+
+
+
+</LinearLayout>

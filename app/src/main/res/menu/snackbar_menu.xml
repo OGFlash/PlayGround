@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:apps="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+       tools:context="com.example.owner.testtwo.ContextualMenu">
+
+
+    <item android:id="@+id/simple_snack"
+          android:orderInCategory="100"
+          android:title="Simple"
+          apps:showAsAction="never"/>
+
+    <item android:id="@+id/action_snack"
+        android:orderInCategory="100"
+        android:title="Action"
+        apps:showAsAction="never"/>
+
+    <item android:id="@+id/custom_snack"
+        android:orderInCategory="100"
+        android:title="Styled"
+        apps:showAsAction="never"/>
+
+</menu>

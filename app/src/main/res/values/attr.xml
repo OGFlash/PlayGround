@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="GameCard">
+        <attr name="damageLabel" format="string"/>
+        <attr name="healthLabel" format="string"/>
+        <attr name="defenseLabel" format="string"/>
+        <attr name="damageLabelStyle" format="reference"/>
+        <attr name="healthLabelStyle" format="reference"/>
+        <attr name="defenseLabelStyle" format="reference"/>
+
+    </declare-styleable>
+
+
+</resources>
